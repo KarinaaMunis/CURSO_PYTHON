@@ -17,7 +17,9 @@
 #    usados no mercado.[cite: 2]
 
 # Código:
-
+# print("A) O criador do git foi o Linus Torvalds, o mesmo criador do sistema operacional Linux. Já os criadores do GitHub são Tom preston-werner e Chris Wanstrath, Além de PJ Hyett e Scott Chacon.")
+# print("B) GitHub foi vendido para Microsot, e o vendido por cerca de R$30bilhões.")
+# print("C) GitLab e Bitbucket")
 
 # ==============================================================================
 # DESAFIO 2: O Padrão da Empresa (Comandos GIT)
@@ -32,7 +34,10 @@
 # 4. Salvar as alterações criando um ponto na história (com uma mensagem).[cite: 2]
 
 # Código:
-
+# print("1. git init")
+# print("2. git status")
+# print("3. git add")
+# print("4. git commit")
 
 # ==============================================================================
 # DESAFIO 3: A Primeira Feature (Operador de Subtração -)
@@ -46,7 +51,10 @@
 # Imprima o resultado na tela.
 
 # Código:
-
+# capacidade_total_escola = 850
+# alunos_matriculados = 523
+# vagas_disponiveis = capacidade_total_escola - alunos_matriculados
+# print("Vagas_disponiveis:" ,vagas_disponiveis)
 
 # ==============================================================================
 # DESAFIO 4: Calculando o Faturamento (Operador de Multiplicação *)
@@ -58,7 +66,10 @@
 # multiplique os dois valores e exiba o resultado para o cliente.
 
 # Código:
-
+mensalidade_padrao = 850.50
+novas_matriculas = 42
+faturamento_projetado = mensalidade_padrao * novas_matriculas
+print("Faturamento_projetado:", faturamento_projetado)
 
 # ==============================================================================
 # DESAFIO 5: Divisão de Turmas (Operador de Divisão /)
