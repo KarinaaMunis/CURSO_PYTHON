@@ -27,7 +27,13 @@
 # Caso contrário, imprima "Acesso negado: Requisitos não preenchidos.".
 
 # Código:
+# idade = 20
+# matricula_ativa = True
 
+# if idade > 18 and matricula_ativa == True:
+#     print("Acesso Liberado ao módulo avançado!")
+# else:
+#     print("Acesso negado: Requisitos não preenchidos.")
 
 # ==============================================================================
 # DESAFIO 2: Triagem de Mensagens no Chatbot (Operador 'or')
@@ -42,7 +48,12 @@
 # Caso contrário, imprima "Atendimento automatizado em andamento.".
 
 # Código:
+# mensagem_cliente = "Quero falar com o suporte"
 
+# if "suporte" in mensagem_cliente or "financeiro" in mensagem_cliente: 
+#     print("Transferindo para um atendente humano...")
+# else:
+#     print("Atendimento automatizado em andamento")
 # ==============================================================================
 # DESAFIO 3: Status de Manutenção do Sistema (Operador 'not')
 # ==============================================================================
@@ -55,6 +66,13 @@
 # Caso contrário, imprima "Sistema em manutenção. Tente novamente mais tarde.".
 
 # Código:
+#BOA PRATICA É CRIAR BOOLEADOS COM NOMES AFIRMATIVOS! PRÁTICA DE CLEAN CODE.
+
+# em_manutencao = False
+# if not em_manutencao:
+#     print("Servidor operacional. Iniciando rotina")
+# else:
+#     print("Sistema em manutenção. Tente novamente mais tarde.")
 
 # ==============================================================================
 # DESAFIO 4: Emissão de Certificado de Conclusão (Operadores 'and' e 'not')
@@ -67,7 +85,13 @@
 # Caso contrário, imprima "Emissão bloqueada. Verifique suas pendências ou nota.".
 
 # Código:
+# nota_final = 8.5
+# possui_pendencia = False
 
+# if nota_final >= 7.0 and not possui_pendencia:
+#     print("Certificado emitido com sucesso!")
+# else:
+#     print("Emissão bloqueada. Verifique suas pendências ou nota.")
 
 # ==============================================================================
 # DESAFIO 5: Classificação de Desempenho do Código (if / elif / else com 'and')
@@ -81,7 +105,14 @@
 # - Se tempo_resposta_ms > 300: "Atenção: Código precisa de otimização!"
 
 # Código:
+# tempo_resposta_ms = 99
 
+# if tempo_resposta_ms < 100:
+#     print("Excelente performance.")
+# elif tempo_resposta_ms >= 100 and tempo_resposta_ms <= 300:
+#     print("Performance aceitável.")
+# else:
+#     print("Atenção: Código precisa de otimização!") 
 
 # ==============================================================================
 # DESAFIO 6: Liberação de Bônus de Projeto (Operadores mistos 'or' e 'and')
@@ -95,7 +126,14 @@
 # Imprima "Colaborador elegível para bônus!" ou "Critérios de bônus não atingidos.".
 
 # Código:
+# horas_extras = 15
+# projetos_entregues = 6 
+# nota_avaliacao = 9.0
 
+# if horas_extras > 20 or projetos_entregues > 5 and nota_avaliacao > 8:
+#     print("Colaborador elegível para bônus!")
+# else:
+#     print("Critérios de bônus não atingidos.")
 
 # ==============================================================================
 # DESAFIO 7: Validação de Cadastro de Usuário (Análise de Strings com 'and')
@@ -109,7 +147,12 @@
 # Imprima "Nome de usuário válido!" ou "Nome de usuário inválido.".
 
 # Código:
+# usuario = "dev_python"
 
+# if len(usuario) > 3 and ' ' not in usuario:
+#     print("Nome de usuário válido!")
+# else:
+#     print("Nome de usuário inválido.")
 
 # ==============================================================================
 # DESAFIO 8: Menu de Feedback de Code Review (Match-Case)
@@ -123,7 +166,17 @@
 # - Caso Padrão (_): "Status não identificado. Consulte a Eduarda."
 
 # Código:
+# codigo_status = 3
 
+# match codigo_status:
+#     case 1:
+#         print("Aprovado: Código limpo e pronto para produção.")
+#     case 2:
+#         print("Aprovado com ressalvas: Ajustar nomes de variáveis.")
+#     case 3:
+#         print("Reprovado: Reescrever lógica e adicionar tratamento de erros.")
+#     case _:
+#         print("Status não identificado. Consulte a Eduarda.")
 
 # ==============================================================================
 # ==============================================================================
@@ -142,7 +195,11 @@
 # Imprima "Desconto de 20% aplicado!" ou "Valor integral da assinatura.".
 
 # Código:
+ex_aluno = False
+cupom_valido = True
+is_black_friday = True
 
+if
 
 # ==============================================================================
 # DESAFIO 10 (OPCIONAL): Liberação de Feature Flag em Produção

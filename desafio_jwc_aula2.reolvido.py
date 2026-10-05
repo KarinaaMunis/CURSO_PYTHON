@@ -21,11 +21,11 @@
 # Depois, crie uma variável 'idade_candidato'. Imprima as duas variáveis na tela.
 
 #Código:
-#nome_candidato = "Karina Munis"
-#idade_candidato = 20
+# nome_candidato = "Karina Munis"
+# idade_candidato = 20
 
-#print(nome_candidato)
-#print(idade_candidato)
+# print(nome_candidato)
+# print(idade_candidato)
 
 # ==============================================================================
 # DESAFIO 3: Conhecendo a Estrutura
@@ -37,8 +37,8 @@
 # variável chamada 'total_geral_funcionarios' que some as duas e imprima o resultado!
 
 # Código:
-# #total_colaboradores_administrativos = 30 
-# total_colaboradores_desenvolvimento = 20 
+# total_colaboradores_administrativos = 30 
+# total_colaboradores_desenvolvimento = 20    
 
 # total_geral_funcionarios = total_colaboradores_administrativos + total_colaboradores_desenvolvimento
 # print(total_geral_funcionarios)

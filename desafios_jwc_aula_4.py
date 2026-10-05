@@ -29,6 +29,9 @@
 # C) git pull
 
 # Código:
+# print ("A) O git clone cria uma cópia local completa de um repositório existente.")
+# print ("B) O git push envia os commits confirmados no seu repósitorio local para um repositório remoto.")
+# print ("C) O git pull baixa e integra automaticamente as alterações de um repositório remeto para o seu repositório local.")
 
 # ==============================================================================
 # DESAFIO 2: Simulação de Desastres (Recuperação de Arquivos)
@@ -40,7 +43,7 @@
 # do Git você usaria para realizar a recuperação dos arquivos?
 
 # Código:
-
+# print ("git clone e git pull")
 
 # ==============================================================================
 # DESAFIO 3: Controle de Acesso ao Servidor (Condicional if / else)
@@ -53,6 +56,11 @@
 # "JWC@Admin", imprima "Acesso Liberado.". Caso contrário, imprima "Acesso Negado!".
 
 # Código:
+# senha_digitada = "DevSec2026"
+# if senha_digitada == "JWC@Admin":
+#     print("Acesso Liberado.")
+# else:
+#     print("Acesso Negado!")
 
 
 # ==============================================================================
@@ -70,7 +78,15 @@
 
 # Código:
 
-
+# nivel_ameaca = 3
+# if nivel_ameaca == 1:
+#     print ("Baixa: Adicionar ao Backlog da Sprint.")
+# elif nivel_ameaca == 2:
+#     print ("Média: Desenvolvedor deve revisar hoje.")
+# elif nivel_ameaca == 3:
+#     print ("Alta/Crítica: Acionar Matheus (DevSecOps) imediatamente!")
+# else:
+#     print("Nível não reconhecido.")
 
 # ==============================================================================
 # DESAFIO 5: Menu de Ferramentas (Switch Case)
@@ -86,3 +102,13 @@
 # Caso Padrão (_): "Opção inválida. Tente novamente."
 
 # Código:
+# opcao_menu = _
+# match opcao_menu:
+#     case 1: 
+#         print("Iniciando varredura SAST no código fonte...")
+#     case 2: 
+#         print( "Iniciando processo de sanitização de metadados...")
+#     case 3: 
+#         print("Gerando relatório OWASP de vulnerabilidades...")
+#     case _:
+#         print("Opção inválida. Tente novamente.")
