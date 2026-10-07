@@ -195,11 +195,14 @@
 # Imprima "Desconto de 20% aplicado!" ou "Valor integral da assinatura.".
 
 # Código:
-ex_aluno = False
-cupom_valido = True
-is_black_friday = True
+# ex_aluno = False
+# cupom_valido = True
+# is_black_friday = True
 
-if
+# if ex_aluno or cupom_valido and is_black_friday:
+#     print("Desconto de 20% aplicado!")
+# else:
+#     print("Valor integral da assinatura.")
 
 # ==============================================================================
 # DESAFIO 10 (OPCIONAL): Liberação de Feature Flag em Produção
@@ -211,8 +214,13 @@ if
 # Imprima "Nova funcionalidade habilitada." ou "Funcionalidade indisponível nesta versão.".
 
 # Código:
+# tipo_usuario = "beta_tester"
+# versao_sistema = 2.1
 
-
+# if (tipo_usuario == "beta_tester" or tipo_usuario == "administrador") and versao_sistema >= 2.0:
+#     print("Nova funcionalidade habilitada.")
+# else:
+#     print("Funcionalidade indisponível nesta versão.")
 # ==============================================================================
 # DESAFIO 11 (OPCIONAL): Validação de Formulário Completo
 # ==============================================================================
@@ -224,7 +232,13 @@ if
 # Imprima "Formulário validado com sucesso!" ou "Preencha todos os campos corretamente.".
 
 # Código:
+# nome = "Ana"
+# email = "ana@jwc.com"
 
+# if len(nome) > 0 and len(email) > 0 and ('@' in email):
+#     print("Formulário validado com sucesso!")
+# else:
+#     print("Preencha todos os campos corretamente.")
 
 # ==============================================================================
 # DESAFIO 12 (OPCIONAL): Filtro de Logs de Erro Críticos
@@ -237,7 +251,13 @@ if
 # ou "Log registrado sem necessidade de alerta urgente.".
 
 # Código:
+# nivel_log = "CRITICAL" 
+# ambiente = "PROD"
 
+# if nivel_log == "ERROR" or nivel_log == "CRITICAL" and ambiente == "PROD":
+#     print("DISPARAR ALERTA NO SLACK DA EQUIPE!")
+# else:
+#     print("Log registrado sem necessidade de alerta urgente.")
 
 # ==============================================================================
 # DESAFIO 13 (OPCIONAL): Validação de Inscrição em Torneio de e-Sports
@@ -250,6 +270,14 @@ if
 # ou "Inscrição recusada por não atender aos requisitos.".
 
 # Código:
+# idade = 18 
+# ranking = "Mestre"
+# banido = False
+
+# if idade >= 16 and ranking == "Diamante" or ranking == "Mestre" and banido == False:
+#     print("Inscrição confirmada no torneio!")
+# else: 
+#     print("Inscrição recusada por não atender aos requisitos.")
 
 
 # ==============================================================================
@@ -264,7 +292,11 @@ if
 # Reescreva a verificação em um único 'if' usando o operador 'and' de forma limpa e idiomática.
 
 # Código:
+# ativo = True
+# admin = True
 
+# if ativo and admin:
+#     print("Acesso total")
 
 # ==============================================================================
 # DESAFIO 15 (OPCIONAL): O Desafio Supremo de Pipeline da Eduarda
@@ -281,3 +313,11 @@ if
 # ou "Deploy bloqueado! Corrija os problemas apontados no relatório.".
 
 # Código:
+# testes_passaram = True
+# cobertura_codigo = 85
+# vulnerabilidade_alta = False
+
+# if testes_passaram == True and cobertura_codigo >= 80 and not vulnerabilidade_alta:
+#     print("Deploy aprovado pela Eduarda! Enviando para produção..." )
+# else:
+#     print("Deploy bloqueado! Corrija os problemas apontados no relatório.")

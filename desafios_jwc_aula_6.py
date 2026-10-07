@@ -26,8 +26,10 @@
 # "Enviando mensagem via Whapi.Cloud para: [Nome]"
 
 # Código:
+# novos_alunos = ["Ana", "Carlos", "Beatriz"]
+# print(novos_alunos)
 
-
+# PARA EXIBIR APENAS 1 ALUNO: "PRINT(NOVOS_ALUNO[0]...ECT)"
 # ==============================================================================
 # DESAFIO 2: Tentativas de Reconexão do Agente IA (Laço 'while')
 # ==============================================================================
@@ -39,7 +41,11 @@
 # Não se esqueça de incrementar a variável 'tentativas' para evitar um loop infinito!
 
 # Código:
+# tentativas = 1 
 
+# while tentativas <= 3:
+#     print(f"tentativa de conexão DialogFlow: {tentativas}")
+#     tentativas = tentativas + 1 
 
 # ==============================================================================
 # DESAFIO 3: Filtro de Intenções (Intents) (Laço 'for' com 'if')
@@ -52,7 +58,12 @@
 # Caso contrário, imprima "Intenção ignorada."
 
 # Código:
-
+# intencoes = ["Duvida", "Matricula", "Reclamacao", "Matricula"]
+# for intencao in intencoes:
+#     if intencao == "Matricula":
+#         print("Processando fluxo de matrícula no Make.com...")
+#     else:
+#         print("Intenção ignorada.")
 
 # ==============================================================================
 # DESAFIO 4: Menu Interativo de Automação (Simulação de 'Do-While')
@@ -66,7 +77,14 @@
 # Se for "1", imprima "Chatbot iniciado!".
 
 # Código:
-
+# while True:
+#     opcao = input("Digite 1 para iniciar o chatbot ou 0 para sair: ")
+    
+#     if opcao == "0":
+#         print("Encerrando sistema...")
+#         break
+#     elif opcao == "1":
+#         print("Chatbot iniciado!")
 
 # ==============================================================================
 # DESAFIO 5: Contagem Regressiva para Deploy (Função range)
@@ -78,9 +96,16 @@
 # Dica: range(inicio, parada, passo).
 
 # Código:
+# x = range(3, 6)
+# for n in x:
+#     print(n)
 
+# contagem_regressiva = range(5, 0, -1)
+# for contagem in contagem_regressiva:
+#     print(contagem)
+# print("Servidor reiniciado!")
 
-# ==============================================================================
+# # ==============================================================================
 # ==============================================================================
 # DESAFIOS OPCIONAIS (PARA ALUNOS AVANÇADOS)
 # ==============================================================================

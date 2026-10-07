@@ -21,6 +21,7 @@
 # print("B) GitHub foi vendido para Microsot, e o vendido por cerca de R$30bilhões.")
 # print("C) GitLab e Bitbucket")
 
+
 # ==============================================================================
 # DESAFIO 2: O Padrão da Empresa (Comandos GIT)
 # ==============================================================================
