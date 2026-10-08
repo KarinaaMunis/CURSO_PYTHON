@@ -122,7 +122,13 @@
 # o loop imediatamente usando 'break'.
 
 # Código:
-
+# status_msg = ["ok", "ok", "erro_critico", "ok"]
+# for status in status_msg:
+#     if status == "ok":
+#         print ("Mensagem lida.")
+#     else:
+#         print ("Falha no sistema! Abortando fila.")
+#         break
 
 # ==============================================================================
 # DESAFIO 7 (OPCIONAL): Pular Dados Inválidos ('continue')
@@ -134,7 +140,11 @@
 # para pular para a próxima iteração. Caso contrário, imprima "Processando [Doc]".
 
 # Código:
-
+# lista_docs = ["Doc1", "", "Doc3", "", "Doc5"]
+# for doc in lista_docs:
+#     if doc == "": 
+#         continue
+#     print(f"processamento {doc}")
 
 # ==============================================================================
 # DESAFIO 8 (OPCIONAL): Calculadora de Custo de Tokens da API (While Acumulador)
@@ -146,3 +156,9 @@
 # o limite de 1000 não for atingido. Imprima o total a cada iteração.
 
 # Código:
+# total_tokens = 0
+# tokens_por_requisicao = 250 
+
+# while total_tokens <1000:
+#     total_tokens += tokens_por_requisicao 
+#     print(f"total de tokens atual: {total_tokens}")
